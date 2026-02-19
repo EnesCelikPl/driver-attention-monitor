@@ -1,0 +1,28 @@
+camera_index: 0
+
+calibration:
+  seconds: 4.0
+
+alarm:
+  beep_interval_seconds: 0.65
+
+thresholds:
+  ear_drowsy_base: 0.20
+  eye_closed_seconds: 1.5
+  drowsy_hold_seconds: 3.0
+
+  yawn_threshold: 0.55
+  yawn_min_seconds: 0.8
+  yawn_hold_seconds: 5.0
+  yawn_window_seconds: 300.0
+  yawn_count_trigger: 3
+  yawn_cooldown_seconds: 2.0
+  yawn_drowsy_cooldown_seconds: 60.0
+
+  pose_seconds: 2.0
+  pose_hold_seconds: 2.5
+  head_down_pitch_deg: 18.0
+  look_away_yaw_deg: 25.0
+
+  squint_seconds: 2.0
+  squint_hold_seconds: 2.0
